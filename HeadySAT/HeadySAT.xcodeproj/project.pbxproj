@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFDD036A228DCB56001B3B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD0369228DCB56001B3B91 /* AppDelegate.swift */; };
+		DFDD036C228DCB56001B3B91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD036B228DCB56001B3B91 /* ViewController.swift */; };
+		DFDD036F228DCB56001B3B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDD036D228DCB56001B3B91 /* Main.storyboard */; };
+		DFDD0372228DCB56001B3B91 /* HeadySAT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFDD0370228DCB56001B3B91 /* HeadySAT.xcdatamodeld */; };
+		DFDD0374228DCB60001B3B91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFDD0373228DCB60001B3B91 /* Assets.xcassets */; };
+		DFDD0377228DCB60001B3B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDD0375228DCB60001B3B91 /* LaunchScreen.storyboard */; };
+		DFDD0382228DCB61001B3B91 /* HeadySATTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD0381228DCB61001B3B91 /* HeadySATTests.swift */; };
+		DFDD038D228DCB61001B3B91 /* HeadySATUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD038C228DCB61001B3B91 /* HeadySATUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFDD037E228DCB61001B3B91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFDD035E228DCB56001B3B91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFDD0365228DCB56001B3B91;
+			remoteInfo = HeadySAT;
+		};
+		DFDD0389228DCB61001B3B91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFDD035E228DCB56001B3B91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFDD0365228DCB56001B3B91;
+			remoteInfo = HeadySAT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFDD0366228DCB56001B3B91 /* HeadySAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadySAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDD0369228DCB56001B3B91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFDD036B228DCB56001B3B91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFDD036E228DCB56001B3B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFDD0371228DCB56001B3B91 /* HeadySAT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeadySAT.xcdatamodel; sourceTree = "<group>"; };
+		DFDD0373228DCB60001B3B91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFDD0376228DCB60001B3B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFDD0378228DCB60001B3B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFDD037D228DCB61001B3B91 /* HeadySATTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadySATTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDD0381228DCB61001B3B91 /* HeadySATTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadySATTests.swift; sourceTree = "<group>"; };
+		DFDD0383228DCB61001B3B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFDD0388228DCB61001B3B91 /* HeadySATUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadySATUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDD038C228DCB61001B3B91 /* HeadySATUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadySATUITests.swift; sourceTree = "<group>"; };
+		DFDD038E228DCB61001B3B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFDD0363228DCB56001B3B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDD037A228DCB61001B3B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDD0385228DCB61001B3B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFDD035D228DCB56001B3B91 = {
+			isa = PBXGroup;
+			children = (
+				DFDD0368228DCB56001B3B91 /* HeadySAT */,
+				DFDD0380228DCB61001B3B91 /* HeadySATTests */,
+				DFDD038B228DCB61001B3B91 /* HeadySATUITests */,
+				DFDD0367228DCB56001B3B91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFDD0367228DCB56001B3B91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFDD0366228DCB56001B3B91 /* HeadySAT.app */,
+				DFDD037D228DCB61001B3B91 /* HeadySATTests.xctest */,
+				DFDD0388228DCB61001B3B91 /* HeadySATUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFDD0368228DCB56001B3B91 /* HeadySAT */ = {
+			isa = PBXGroup;
+			children = (
+				DFDD0369228DCB56001B3B91 /* AppDelegate.swift */,
+				DFDD036B228DCB56001B3B91 /* ViewController.swift */,
+				DFDD036D228DCB56001B3B91 /* Main.storyboard */,
+				DFDD0373228DCB60001B3B91 /* Assets.xcassets */,
+				DFDD0375228DCB60001B3B91 /* LaunchScreen.storyboard */,
+				DFDD0378228DCB60001B3B91 /* Info.plist */,
+				DFDD0370228DCB56001B3B91 /* HeadySAT.xcdatamodeld */,
+			);
+			path = HeadySAT;
+			sourceTree = "<group>";
+		};
+		DFDD0380228DCB61001B3B91 /* HeadySATTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFDD0381228DCB61001B3B91 /* HeadySATTests.swift */,
+				DFDD0383228DCB61001B3B91 /* Info.plist */,
+			);
+			path = HeadySATTests;
+			sourceTree = "<group>";
+		};
+		DFDD038B228DCB61001B3B91 /* HeadySATUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFDD038C228DCB61001B3B91 /* HeadySATUITests.swift */,
+				DFDD038E228DCB61001B3B91 /* Info.plist */,
+			);
+			path = HeadySATUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFDD0365228DCB56001B3B91 /* HeadySAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDD0391228DCB61001B3B91 /* Build configuration list for PBXNativeTarget "HeadySAT" */;
+			buildPhases = (
+				DFDD0362228DCB56001B3B91 /* Sources */,
+				DFDD0363228DCB56001B3B91 /* Frameworks */,
+				DFDD0364228DCB56001B3B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeadySAT;
+			productName = HeadySAT;
+			productReference = DFDD0366228DCB56001B3B91 /* HeadySAT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFDD037C228DCB61001B3B91 /* HeadySATTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDD0394228DCB61001B3B91 /* Build configuration list for PBXNativeTarget "HeadySATTests" */;
+			buildPhases = (
+				DFDD0379228DCB61001B3B91 /* Sources */,
+				DFDD037A228DCB61001B3B91 /* Frameworks */,
+				DFDD037B228DCB61001B3B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFDD037F228DCB61001B3B91 /* PBXTargetDependency */,
+			);
+			name = HeadySATTests;
+			productName = HeadySATTests;
+			productReference = DFDD037D228DCB61001B3B91 /* HeadySATTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFDD0387228DCB61001B3B91 /* HeadySATUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDD0397228DCB61001B3B91 /* Build configuration list for PBXNativeTarget "HeadySATUITests" */;
+			buildPhases = (
+				DFDD0384228DCB61001B3B91 /* Sources */,
+				DFDD0385228DCB61001B3B91 /* Frameworks */,
+				DFDD0386228DCB61001B3B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFDD038A228DCB61001B3B91 /* PBXTargetDependency */,
+			);
+			name = HeadySATUITests;
+			productName = HeadySATUITests;
+			productReference = DFDD0388228DCB61001B3B91 /* HeadySATUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFDD035E228DCB56001B3B91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ravindra Kumbhar";
+				TargetAttributes = {
+					DFDD0365228DCB56001B3B91 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DFDD037C228DCB61001B3B91 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DFDD0365228DCB56001B3B91;
+					};
+					DFDD0387228DCB61001B3B91 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DFDD0365228DCB56001B3B91;
+					};
+				};
+			};
+			buildConfigurationList = DFDD0361228DCB56001B3B91 /* Build configuration list for PBXProject "HeadySAT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFDD035D228DCB56001B3B91;
+			productRefGroup = DFDD0367228DCB56001B3B91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFDD0365228DCB56001B3B91 /* HeadySAT */,
+				DFDD037C228DCB61001B3B91 /* HeadySATTests */,
+				DFDD0387228DCB61001B3B91 /* HeadySATUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFDD0364228DCB56001B3B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDD0377228DCB60001B3B91 /* LaunchScreen.storyboard in Resources */,
+				DFDD0374228DCB60001B3B91 /* Assets.xcassets in Resources */,
+				DFDD036F228DCB56001B3B91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDD037B228DCB61001B3B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDD0386228DCB61001B3B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFDD0362228DCB56001B3B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDD036C228DCB56001B3B91 /* ViewController.swift in Sources */,
+				DFDD036A228DCB56001B3B91 /* AppDelegate.swift in Sources */,
+				DFDD0372228DCB56001B3B91 /* HeadySAT.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDD0379228DCB61001B3B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDD0382228DCB61001B3B91 /* HeadySATTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDD0384228DCB61001B3B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDD038D228DCB61001B3B91 /* HeadySATUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFDD037F228DCB61001B3B91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFDD0365228DCB56001B3B91 /* HeadySAT */;
+			targetProxy = DFDD037E228DCB61001B3B91 /* PBXContainerItemProxy */;
+		};
+		DFDD038A228DCB61001B3B91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFDD0365228DCB56001B3B91 /* HeadySAT */;
+			targetProxy = DFDD0389228DCB61001B3B91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFDD036D228DCB56001B3B91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFDD036E228DCB56001B3B91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFDD0375228DCB60001B3B91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFDD0376228DCB60001B3B91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFDD038F228DCB61001B3B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFDD0390228DCB61001B3B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFDD0392228DCB61001B3B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HeadySAT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aditya-Birla.HeadySAT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFDD0393228DCB61001B3B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HeadySAT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aditya-Birla.HeadySAT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFDD0395228DCB61001B3B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HeadySATTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aditya-Birla.HeadySATTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadySAT.app/HeadySAT";
+			};
+			name = Debug;
+		};
+		DFDD0396228DCB61001B3B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HeadySATTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aditya-Birla.HeadySATTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadySAT.app/HeadySAT";
+			};
+			name = Release;
+		};
+		DFDD0398228DCB61001B3B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HeadySATUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aditya-Birla.HeadySATUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeadySAT;
+			};
+			name = Debug;
+		};
+		DFDD0399228DCB61001B3B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HeadySATUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aditya-Birla.HeadySATUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeadySAT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFDD0361228DCB56001B3B91 /* Build configuration list for PBXProject "HeadySAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDD038F228DCB61001B3B91 /* Debug */,
+				DFDD0390228DCB61001B3B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFDD0391228DCB61001B3B91 /* Build configuration list for PBXNativeTarget "HeadySAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDD0392228DCB61001B3B91 /* Debug */,
+				DFDD0393228DCB61001B3B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFDD0394228DCB61001B3B91 /* Build configuration list for PBXNativeTarget "HeadySATTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDD0395228DCB61001B3B91 /* Debug */,
+				DFDD0396228DCB61001B3B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFDD0397228DCB61001B3B91 /* Build configuration list for PBXNativeTarget "HeadySATUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDD0398228DCB61001B3B91 /* Debug */,
+				DFDD0399228DCB61001B3B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DFDD0370228DCB56001B3B91 /* HeadySAT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DFDD0371228DCB56001B3B91 /* HeadySAT.xcdatamodel */,
+			);
+			currentVersion = DFDD0371228DCB56001B3B91 /* HeadySAT.xcdatamodel */;
+			path = HeadySAT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DFDD035E228DCB56001B3B91 /* Project object */;
+}
